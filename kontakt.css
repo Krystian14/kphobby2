@@ -1,0 +1,156 @@
+body {
+    font-family: 'Sour Gummy';
+    margin: 0 auto;
+    color: rgb(216, 210, 210);
+}
+
+.naglowek {
+    background-color: #6d7180;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    height: 9vh;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    flex-wrap: wrap;
+}
+
+#azbg {
+    width: 5vh;
+}
+
+a {
+    transition: ease-in 0.3s;
+    text-decoration: none;
+    padding: 15px;
+    color: rgb(216, 210, 210);
+}
+
+a:hover {
+    color: #a1a2a8;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #a1a2a8;
+}
+
+footer {
+    margin-top: 20%;
+    background-color: #6d7180;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    height: 16vh;
+    color: rgb(216, 210, 210);
+}
+
+#face, #inst, #gmail {
+    width: 2vh;
+    border-radius: 0.5vh;
+}
+
+#shur {
+    width: 6.5vh;
+    float: right;
+}
+
+main {
+    width: 80%;
+    max-width: 600px;
+    margin: 4% auto;
+    background: linear-gradient(to bottom, #a1a2a8, #c4c5ca);
+    padding: 3vh;
+    border-radius: 2vh;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    color: #e0e0e0;
+}
+
+article {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.formularz {
+    margin: 5% auto;
+    padding: 3vh;
+    background: url('https://www.transparenttextures.com/patterns/paper-fibers.png');
+    background-color: #e0e0e0;
+    border-radius: 1vh;
+    width: 90%;
+    max-width: 400px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    padding: 10px;
+}
+
+input {
+    font-family: 'Sour Gummy';
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    font-family: 'Sour Gummy';
+    background-color: #5ac53f;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    transition: ease-in 0.3s;
+    background-color: #45a049;
+}
+
+.reset {
+    background-color: #d44;
+}
+
+.reset:hover {
+
+    background-color: #a33;
+}
+
+@media (max-width: 768px) {
+    .naglowek {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+    }
+
+    main {
+        width: 90%;
+        padding: 5vh;
+    }
+
+    article {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .formularz {
+        width: 95%;
+    }
+
+    footer {
+        height: auto;
+        padding: 10px;
+        position: relative;
+    }
+}
